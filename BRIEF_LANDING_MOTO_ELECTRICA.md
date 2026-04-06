@@ -1,12 +1,5 @@
 # 📄 BRIEF INICIAL: Seguro Moto Eléctrica Barata
 
-**Proyecto:** Pipeline Multi-Agente SEO - Línea Directa  
-**Fecha:** 6 Abril 2026  
-**Vertical:** Seguros Vehículos / Moto Eléctrica  
-**Status:** Brief inicial para circularización entre @seo-strategist, @marketing-copywriter, @html-implementer
-
----
-
 ## 🎯 OBJETIVO
 
 Crear landing page de alto converting para capturar búsquedas sobre "seguro moto eléctrica barato".  
@@ -37,15 +30,3 @@ Crear landing page de alto converting para capturar búsquedas sobre "seguro mot
 💡 **Ángulo:** "Seguro COMPLETO a precio barato"
 
 ---
-
-## ✅ PRÓXIMOS PASOS
-
-1. **@seo-strategist:** Investigar keyword, topical map, FAQs, estructura H1-H6
-2. **@marketing-copywriter:** Redactar copy basado en estrategia SEO anterior  
-3. **@html-implementer:** Desarrollar landing con HTML + Bootstrap, schema markup, tracking
-4. **@qa-checker:** Validar SEO, Core Web Vitals, accesibilidad antes de deploy
-
-📝 **Notas:**
-- Investigación detallada (keywords, competitors, personas) → responsabilidad @seo-strategist
-- Especificaciones técnicas SEO → generadas por agente, documentadas en SPECS_SEO_BASE.md
-- Este brief es solo guía inicial, será editado por agentes en sesión compartida
