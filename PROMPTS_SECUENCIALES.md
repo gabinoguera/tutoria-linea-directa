@@ -1,3 +1,9 @@
+# INICIALIZAR: 
+
+cd ~/Documents/BrainCode/LINEA\ DIRECTA
+source tools/.venv/bin/activate
+python3 -c "from dotenv import load_dotenv; load_dotenv(); import os; print(f'✓ Ready: {os.getenv(\"COMPANY_NAME\")}')"
+
 # 🤖 PROMPTS SECUENCIALES - Crear Pipeline Agentes
 **Fecha:** 6 Abril 2026  
 **Contexto:** Basados en tech stack real Línea Directa (Java, React, Bootstrap, Liferay)  
