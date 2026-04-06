@@ -1,0 +1,88 @@
+{
+  "mcpServers": {
+    "context7": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp@latest"
+      ]
+    },
+    "sequentialthinking": {
+      "type": "stdio",
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "mcp/sequentialthinking"
+      ]
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    },
+    "concurrent-browser": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "concurrent-browser-mcp",
+        "--max-instances",
+        "20"
+      ]
+    },
+    "memory": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ]
+    },
+    "github": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_TOKEN>"
+      }
+    },
+    "drawio": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@drawio/mcp"
+      ]
+    },
+        "gsc": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "mcp-gsc"
+      ],
+      "env": {
+        "GSC_OAUTH_CLIENT_SECRETS_FILE": "ghen_client_secrets.json",
+        "GSC_DATA_STATE": "all"
+      }
+    },
+    "google-analytics": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "analytics-mcp"
+      ],
+      "env": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "application_default_credentials.json",
+        "GOOGLE_PROJECT_ID": "ghendigital-1684402226645",
+        "GA_PROPERTY_ID": "376293040"
+      }
+    }
+  }
+}
