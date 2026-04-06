@@ -37,7 +37,15 @@
 
 ---
 
-## 🧠 CONCEPTOS (10-20 MIN)
+## 🧠 CONCEPTOS
+
+### ¿Qué es GitHub Copilot Agents?
+- Agentes: Tareas autónomas + contexto compartido
+- Skills: Funciones reutilizables (ej: @qa-checker)
+- MCPs: APIs simuladas (ej: @DATA-LINEADIRECTA)
+- Reference: https://code.visualstudio.com/docs/copilot/agents/overview
+
+---
 
 ### 3 Agentes en el Pipeline
 
@@ -54,7 +62,7 @@ AGENTE 2: @marketing-copywriter (GitHub Copilot)
 
 AGENTE 3: @html-implementer (GitHub Copilot)
 └─ INPUT: Especificaciones SEO + copywriting
-└─ OUTPUT: HTML landing (React + Bootstrap + schema markup)
+└─ OUTPUT: HTML landing (HTML + Bootstrap + schema markup)
 └─ TAREA: Desarrollo, Core Web Vitals, tracking GTM
 ```
 
@@ -66,25 +74,7 @@ AGENTE 3: @html-implementer (GitHub Copilot)
 
 ---
 
-## 💻 SETUP (10-20 MIN)
-
-### PRE-HECHO ✅
-```bash
-✓ .env con datos LD (COMPANY_NAME, DOMAIN, etc)
-✓ Python venv en tools/.venv/
-✓ Dependencias instaladas (requirements.txt)
-```
-
-### Verificar en vivo (1 min)
-```bash
-cd ~/Documents/BrainCode/LINEA\ DIRECTA
-source tools/.venv/bin/activate
-python3 -c "from dotenv import load_dotenv; load_dotenv(); import os; print(f'✓ LD Setup OK: {os.getenv(\"COMPANY_NAME\")}')"
-```
-
----
-
-## 🚀 AGENTES GITHUB COPILOT (20-35 MIN)
+## 🚀 AGENTES GITHUB COPILOT
 
 ### Explicar cada agente
 
@@ -101,7 +91,7 @@ python3 -c "from dotenv import load_dotenv; load_dotenv(); import os; print(f'�
 - Prompt: Max 5 líneas
 
 **@html-implementer**
-- Rol: Dev frontend (React + Bootstrap)
+- Rol: Dev frontend (HTML+ Bootstrap)
 - Input: Specs SEO + copywriting
 - Output: landing.html con validación Lighthouse
 - Prompt: Max 5 líneas
@@ -170,21 +160,8 @@ SPECS_SEO_BASE.md + _SESSION_COPYWRITING.md → @html-implementer → landing.ht
 4. Próximo agente lo consume
 5. Final: archivo HTML en `tools/outputs/html/`
 
-### ¿Qué es GitHub Copilot Agents?
-- Agentes: Tareas autónomas + contexto compartido
-- Skills: Funciones reutilizables (ej: @qa-checker)
-- MCPs: APIs simuladas (ej: @DATA-LINEADIRECTA)
-- Reference: https://code.visualstudio.com/docs/copilot/agents/overview
 
----
-
-## ❓ Q&A (80-90 MIN)
-
-### Preguntas frecuentes
-- "¿Qué pasa si el agente genera código inválido?" → @qa-checker lo detecta
-- "¿Puedo ejecutar agentes desde terminal?" → Sí, via CLI + GitHub Copilot Chat
-- "¿Cómo reutilizo esto en otros landings?" → Agentes son agnósticos, cambia solo el prompt
-- "¿Y si LD cambia su tech stack?" → Agentes se adaptan, solo actualiza contexto
+## ❓ Q&A 
 
 ### Próximos pasos
 1. Crear más landings (motos, vivienda, seguros hogar)
@@ -194,7 +171,7 @@ SPECS_SEO_BASE.md + _SESSION_COPYWRITING.md → @html-implementer → landing.ht
 
 ### Recursos
 - GitHub Copilot Agents: https://code.visualstudio.com/docs/copilot/agents/overview
-- Tech LD: Java + React + Bootstrap + Liferay
+- Tech LD: HTML + Bootstrap + Liferay
 - docs: README_INDICE.md + PROMPTS_SECUENCIALES.md
 
 ---

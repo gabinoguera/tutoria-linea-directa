@@ -13,7 +13,7 @@
 ├── agents/
 │   ├── seo-strategist.md          ← Agente 1: Estrategia SEO
 │   ├── marketing-copywriter.md    ← Agente 2: Copywriting
-│   └── html-implementer.md        ← Agente 3: Frontend React
+│   └── html-implementer.md        ← Agente 3: Frontend HTML
 ├── skills/
 │   └── qa-checker.md              ← Skill: Validación pre-deploy
 └── references/
@@ -43,8 +43,7 @@ OUTPUT: Estructurado (JSON keys + topical tree + FAQs)
 
 Referencias clave:
 - Holistic SEO: https://www.holisticseo.digital/
-- Caso: Seguros moto eléctrica España (LD diferencial = batería 12€/mes)
-- Tech: Java backend, React, Liferay CMS (LD stack)
+- Tech: HTML, Boostrap, Liferay CMS (LD stack)
 ```
 
 ---
@@ -65,13 +64,12 @@ Tu rol es COPYWRITER SEO + CONVERSION:
 - CTAs psychology (reassurance + urgencia)
 - Tono LD (transparencia, sin venta dura)
 
-INPUT: Estrategia SEO anterior + specs técnicas
-OUTPUT: Copy clean + FAQs schema + A/B suggestions
+INPUT: Estrategia SEO + specs técnicas
+OUTPUT: Copy clean + FAQs schema
 
 Referencia: 
 - Sitio LD: https://www.lineadirecta.com (tono, CTAs structure)
 - Competencia: AXA (caro), MAPFRE (complejo), Allianz (lento)
-- Target: Propietarios eléctricos 30-45 años + comparadores precio
 ```
 
 ---
@@ -80,24 +78,21 @@ Referencia:
 
 **Ubicación:** `.github/agents/html-implementer.md`  
 **Tipo:** Agent (model: sonnet)  
-**Referencia:** React + Bootstrap + Core Web Vitals
+**Referencia:** HTML + Bootstrap + Core Web Vitals
 
 ```markdown
 Lee `.github/agents/html-implementer.md`
 
-Tu rol es FRONTEND REACT OPTIMIZADO:
-- React components + hooks (funcionales)
-- Bootstrap 5 grid + responsive (xs/sm/md/lg/xl)
+Tu rol es FRONTEND HTML DEMO OPTIMIZADO:
+- Bootstrap 5 grid
 - Schema.org JSON-LD (FAQPage, LocalBusiness)
-- Google Tag Manager integration
-- Core Web Vitals optimization (LCP <2.5s, FID <100ms, CLS <0.1)
-- Lighthouse >90 scores
+
 
 INPUT: Specs SEO (URL, meta, schema) + Copy (H1, body, FAQs)
 OUTPUT: landing.html (single file component, optimized)
 
 Stack LD (referencia):
-- Frontend: React, Bootstrap 5, Preact
+- Frontend: HTML, Bootstrap 5
 - Analytics: GTM, Google Analytics, Microsoft Clarity
 - CDN: Imperva (HSTS)
 - Performance targets: LCP <2.5s, Lighthouse >90
@@ -218,7 +213,6 @@ Copilot Chat:
 - **Core Web Vitals:** https://web.dev/vitals/
 - **Schema.org:** https://schema.org/
 - **Bootstrap 5:** https://getbootstrap.com/
-- **React Docs:** https://react.dev/
 
 ---
 

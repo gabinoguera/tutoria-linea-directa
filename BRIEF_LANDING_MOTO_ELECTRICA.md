@@ -42,7 +42,7 @@ Crear landing page de alto converting para capturar búsquedas sobre "seguro mot
 
 1. **@seo-strategist:** Investigar keyword, topical map, FAQs, estructura H1-H6
 2. **@marketing-copywriter:** Redactar copy basado en estrategia SEO anterior  
-3. **@html-implementer:** Desarrollar landing con React + Bootstrap, schema markup, tracking
+3. **@html-implementer:** Desarrollar landing con HTML + Bootstrap, schema markup, tracking
 4. **@qa-checker:** Validar SEO, Core Web Vitals, accesibilidad antes de deploy
 
 📝 **Notas:**

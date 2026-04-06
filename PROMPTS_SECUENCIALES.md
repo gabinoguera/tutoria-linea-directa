@@ -1,7 +1,7 @@
 # 🤖 PROMPTS SECUENCIALES - Crear Pipeline Agentes
 
 **Fecha:** 6 Abril 2026  
-**Contexto:** Basados en tech stack real Línea Directa (Java, React, Bootstrap, Liferay)  
+**Contexto:** Basados en tech stack real Línea Directa (HTML, Bootstrap, Liferay)  
 **Método:** Ejecutar de a uno. Respuestas en archivos .md compartidos
 
 ---
@@ -12,7 +12,7 @@
 Basándote en `.github/agents/seo-strategist.md`, crea un nuevo agente en GitHub Copilot llamado **@seo-strategist**.
 Metodología: Holistic SEO (https://www.holisticseo.digital/) - keyword intent beyond volume, topical authority, entity-based approach.
 Referencia técnica: Analiza desde perspectiva de Soluciones de Calidad Web (Addy Osmani, Core Web Vitals performance benchmark).
-Especialización: Investigación keyword + topical mapping para verticales de seguros (españa.lineadirecta.com stack: Java backend, React frontend).
+Especialización: Investigación keyword + topical mapping para verticales de seguros (españa.lineadirecta.com stack: HTML frontend).
 Dame confirmación cuando el agente esté creado.
 
 ---
@@ -36,7 +36,7 @@ Dame confirmación cuando el agente esté creado.
 
 ### PROMPT 0D: Crear Skill @qa-checker
 Basándote en `.github/skills/qa-checker.md`, crea un nuevo skill en GitHub Copilot llamado **@qa-checker**.
-Referencia: SEO técnico (https://github.com/gabinoguera/gh_seo) + Core Web Vitals checklist (Addy Osmani standards).
+Referencia: SEO técnico + Core Web Vitals checklist (Addy Osmani standards).
 Especialización: 25-point validation checklist (SEO on-page + schema markup + performance + accessibility).
 Validaciones críticas: Core Web Vitals no negociables (LCP, CLS), schema JSON-LD válido, accessibility contrast >4.5:1.
 Dame confirmación cuando el skill esté creado.
@@ -46,14 +46,14 @@ Dame confirmación cuando el skill esté creado.
 ## 🎬 FASE 2: EJECUTAR AGENTES (Min 10-90)
 
 ## ✅ PROMPT 1: @SEO-STRATEGIST
-Eres experto en estrategia SEO para landing pages de seguros. Línea Directa usa Java backend + React frontend + Liferay CMS. 
-Analiza "seguro moto eléctrica barato" (340 vol/mes) y entrega: brief SEO, keywords (primary/secondary/LSI), topical map, FAQ schema.
-Contexto: landing URL /seguros/moto-electrica-barata/, diferenciador=batería incluida 12€/mes, audience=propietarios motos eléctricas 30-45 años.
+Eres experto en estrategia SEO para landing pages de seguros.
+Analiza "BRIEF_LANDING_MOTO_ELECTRICA.md" y entrega: brief SEO, keywords (primary/secondary/LSI), topical map, FAQ schema.
+Contexto: landing URL /seguros/moto-electrica-barata/
 
 ---
 
 ## ✅ PROMPT 2: @MARKETING-COPYWRITER
-Eres redactor especializado en seguros. Usa brief anterior (en archivos compartidos) + estructura landing que pasó @seo-strategist.
+Usa brief anterior (en archivos compartidos) + estructura landing que pasó @seo-strategist.
 Escribe: H1 magnetic, 3 pain points resueltos en párrafos cortos, 5 FAQs con schema markup, CTA urgente ("Calcula presupuesto").
 Tono: Confianza + claridad. Evita tecnicismos. Target: propietarios eléctricos 30-45 años que buscan transparencia precio.
 
@@ -114,7 +114,7 @@ Reporta en checklist .md con resultados. Bloquea deploy si falla Core Web Vitals
 ### Referencias en Vivo
 - **Línea Directa Sitio Real:** https://www.lineadirecta.com (tono, estructura, CTAs, diferencial)
 - **Competencia:** AXA, MAPFRE, Allianz (análisis comparativo)
-- **Wappalyzer Tech Stack LD:** Java backend, React frontend, Bootstrap 5, Liferay CMS, GTM, Imperva CDN
+- **Wappalyzer Tech Stack LD:** HTML, frontend, Bootstrap 5, Liferay CMS, GTM, Imperva CDN
 
 ### Validadores
 - **Schema.org:** https://schema.org/ (FAQPage, LocalBusiness, BreadcrumbList)
@@ -169,4 +169,3 @@ open ~/Documents/BrainCode/LINEA\ DIRECTA/tools/outputs/html/landing.html
 ---
 
 **Última actualización:** 6 Abril 2026  
-**Framework:** GitHub Copilot Agents + HTML5 + Bootstrap 5 (sin React, sin complicaciones)

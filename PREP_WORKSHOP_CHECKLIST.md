@@ -1,13 +1,3 @@
-# ✅ CHECKLIST PRE-WORKSHOP (6 Abril 2026)
-
-## 🎯 Setup Completado
-- ✓ Python venv en `tools/.venv/`
-- ✓ `.env` con datos LD configurado
-- ✓ requirements.txt instalados
-- ✓ `.github/` structure creado (agents, skills, references)
-- ✓ PROMPTS_SECUENCIALES.md con 8 prompts totales
-- ✓ GitHub repositorio actualizado
-
 ---
 
 ## 📋 PROMPTS LISTOS (en PROMPTS_SECUENCIALES.md)
@@ -40,7 +30,7 @@ PROMPT 4: @qa-checker               → _SESSION_VALIDACION.md
 | **PROMPT 0D** | GitHub SEO técnico (https://github.com/gabinoguera/gh_seo) |
 | **PROMPT 1** | Holistic SEO methodology |
 | **PROMPT 2** | LD diferencial + audiencias reales |
-| **PROMPT 3** | React + Bootstrap + performance LD stack |
+| **PROMPT 3** | HTML + Bootstrap + performance LD stack |
 | **PROMPT 4** | Pre-deploy checklist |
 
 ---
